@@ -1,0 +1,9 @@
+cargo-locations:
+  - 0 6 0
+  - 0 6 1
+  - -1 6 1
+  - -1 6 0
+cargo-material: PINK_SHULKER_BOX
+dropoff-locations:
+  - 7 10 3
+world: world

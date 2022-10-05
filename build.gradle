@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+    id "com.github.johnrengelman.shadow" version "7.1.2"
+    id "org.jetbrains.kotlin.jvm" version "1.7.20"
+}
+
+group 'com.vova7865.cristalixgruz'
+version '1.0.0'
+
+repositories {
+    mavenCentral()
+    maven {
+        url 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/'
+    }
+    maven {
+        url = "https://oss.sonatype.org/content/repositories/snapshots/"
+    }
+}
+
+dependencies {
+    compileOnly 'org.spigotmc:spigot-api:1.12.2-R0.1-SNAPSHOT'
+
+    implementation 'com.google.code.gson:gson:2.9.0'
+
+    shadow 'org.jetbrains.kotlin:kotlin-stdlib:1.7.20'
+}

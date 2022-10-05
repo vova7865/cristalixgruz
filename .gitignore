@@ -1,0 +1,9 @@
+/.idea/
+/run/
+
+/build/
+
+*.jar
+
+/.gradle
+/gradle.properties
